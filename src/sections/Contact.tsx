@@ -81,24 +81,25 @@ export function Contact() {
                       {t("contact.info.phone")}
                     </h4>
                     <p className="text-sm font-sans font-medium text-gray-200">
-                      +33 1 45 67 89 00
+                      +212 770-804430
                     </p>
                   </div>
                 </div>
-
-                <div className="flex items-center gap-4">
-                  <div className="p-3 bg-[#1434CB]/10 border border-[#1434CB]/20 rounded-xl text-[#1434CB]">
-                    <Mail className="w-5 h-5" />
+                {/*  
+                  <div className="flex items-center gap-4">
+                    <div className="p-3 bg-[#1434CB]/10 border border-[#1434CB]/20 rounded-xl text-[#1434CB]">
+                      <Mail className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <h4 className="text-[10px] font-mono font-bold uppercase tracking-wider text-gray-500">
+                        {t("contact.info.email")}
+                      </h4>
+                      <p className="text-sm font-sans font-medium text-gray-200">
+                        operations@apex-it.solutions
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <h4 className="text-[10px] font-mono font-bold uppercase tracking-wider text-gray-500">
-                      {t("contact.info.email")}
-                    </h4>
-                    <p className="text-sm font-sans font-medium text-gray-200">
-                      operations@apex-it.solutions
-                    </p>
-                  </div>
-                </div>
+                */}
               </div>
             </div>
 
@@ -122,8 +123,15 @@ export function Contact() {
               </div>
               
               <div className="relative z-10 font-mono text-[10px] text-gray-400 text-left">
-                <p className="text-xs font-bold text-white mb-0.5">GPS COORDINATES</p>
-                <p>LAT: 48.8566&deg; N &middot; LON: 2.3522&deg; E</p>
+                <a
+                  href="https://maps.app.goo.gl/R3NdYHsS7EKcfLZW6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-title="G7H4+3J4 Madinat Arrahma"
+                >
+                  <p className="text-xs font-bold text-white mb-0.5">GPS COORDINATES</p>
+                  <p>LAT: 33.527642&deg; N &middot; LON: 7.743425&deg; W</p>
+                </a>
               </div>
             </div>
           </div>
@@ -267,7 +275,7 @@ export function Contact() {
                       {/* Direct External Dialog Channels (WhatsApp / Direct Mail) */}
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <a
-                          href="https://wa.me/33145678900"
+                          href="https://wa.me/0770804430"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="flex items-center justify-center gap-2 px-5 py-3 rounded-xl border border-emerald-500/20 bg-emerald-500/5 hover:bg-emerald-500/10 text-emerald-400 text-xs font-semibold tracking-wide transition-colors"

@@ -277,12 +277,12 @@ export const fr = {
     info: {
       direct: "Contact Direct",
       subDirect: "Entretien technique direct",
-      address: "Adresse Postale",
+      address: "Adresse",
       phone: "Téléphone direct",
       email: "Adresse Email",
       ctaWhatsapp: "Contacter via WhatsApp",
       ctaEmail: "Envoyer un email",
-      office: "Quartier Européen, Paris, France"
+      office: "G7H4+3J4 Madinat Arrahma, Casablanca, Maroc",
     }
   },
   footer: {
